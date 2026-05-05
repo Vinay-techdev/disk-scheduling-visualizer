@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+/* Grid background */
+.bg-grid {
+  background-image: 
+    linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+    linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Input */
+.input {
+  @apply border p-2 rounded-lg w-full text-sm focus:ring-2 focus:ring-black outline-none;
+}
